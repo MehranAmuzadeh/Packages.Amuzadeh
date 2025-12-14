@@ -1,0 +1,163 @@
+/* GENEL */
+body {
+font-family: 'Vazir', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* HEADER */
+header {
+padding: 15px;
+text-align: center;
+}
+
+header nav a {
+color: #333;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+header nav a:hover {
+color: #007BFF;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 15px;
+color: white;
+}
+
+/* INDEX SAYFA */
+body.index-page {
+background-color: #f5f5f5;
+}
+.header-index {
+background-color: #6C5B7B;
+color: white;
+}
+.footer-index {
+background-color: #6C5B7B;
+}
+.card-index {
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+margin: 10px;
+display: inline-block;
+width: 250px;
+text-align: center;
+}
+.card-index img {
+width: 100%;
+border-radius: 10px 10px 0 0;
+}
+
+/* PACKAGES SAYFA */
+body.packages-page {
+background-color: #FFF5E1;
+}
+.header-packages {
+background-color: #F67280;
+color: white;
+}
+.footer-packages {
+background-color: #F67280;
+}
+.card-packages {
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 15px;
+margin: 10px;
+display: inline-block;
+width: 220px;
+text-align: center;
+}
+.card-packages img {
+width: 100%;
+border-radius: 10px;
+}
+
+/* PACKAGE DETAILS */
+body.details-page {
+background-color: #E0F7FA;
+}
+.header-details {
+background-color: #009688;
+color: white;
+}
+.footer-details {
+background-color: #009688;
+}
+.package-detail img {
+width: 100%;
+max-width: 500px;
+display: block;
+margin: 10px auto;
+border-radius: 10px;
+}
+
+/* BLOG SAYFA */
+body.blog-page {
+background-color: #FFF0F5;
+}
+.header-blog {
+background-color: #D291BC;
+color: white;
+}
+.footer-blog {
+background-color: #D291BC;
+}
+.blog-articles {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.blog-card {
+background-color: white;
+padding: 15px;
+margin: 10px;
+border-radius: 10px;
+width: 80%;
+}
+
+/* CONTACT SAYFA */
+body.contact-page {
+background-color: #F0FFF0;
+}
+.header-contact {
+background-color: #4CAF50;
+color: white;
+}
+.footer-contact {
+background-color: #4CAF50;
+}
+.contact-form form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+max-width: 400px;
+margin: 20px auto;
+}
+input, textarea, button {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+button {
+background-color: #4CAF50;
+color: white;
+cursor: pointer;
+}
+button:hover {
+background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+.card-index, .card-packages, .blog-card {
+width: 90%;
+}
+}
